@@ -1,1 +1,1 @@
-"# OpenCV2_LiveFaceDetection" 
+# Live Face Detection with OpenCV2 and Python.

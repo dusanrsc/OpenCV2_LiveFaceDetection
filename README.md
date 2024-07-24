@@ -1,1 +1,1 @@
-# Live Face Detection with OpenCV2 and Python.
+# Live Face Detection With Python3 And OpenCV2.

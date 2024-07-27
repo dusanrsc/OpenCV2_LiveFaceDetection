@@ -57,8 +57,11 @@ while cap.isOpened():
 	# displaying the video image
 	cv2.imshow("Live Face Detection With Python3 And OpenCV2", frame)
 
+	# event key input
+	key = cv2.waitKey(1) & 0xFF
+
 	# destroying the window if specific key (event) is pressed
-	if cv2.waitKey(1) == ord("q"):
+	if key == ord("Q") or key == ord("q") or key == 27:
 		break
 
 # liberating camera source for other programs
